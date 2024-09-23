@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github App</title>
+    <!---------------------------------CSS link------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!---------------------------------Hero section------------------------------------>
+    <section class="hero">
+        <div class="hero-items">
+            <div class="input-container">
+                <label for="username">Search user</label>
+                <div class="input-field">
+                    <input type="search" id="username">
+                    <button type="submit">Search</button>
+                </div><!--end input field-->
+            </div><!--end input container-->
+            <div class="profile-container">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+                <p class="empty-profile-text"></p>
+            </div><!--end profile container-->
+        </div><!--end hero items-->
+    </section><!--end hero section-->
+    <!---------------------------------Repos section------------------------------------>
+    <section class="repos-section">
+        <h2>Repositories</h2>
+        <div class="repos-container">
+            <div class="repos-box"></div>
+            <p class="empty-repos-text"></p>
+        </div><!--end repos container-->
+    </section><!--end repos section-->
+    <!---------------------------------JavaScript link------------------------------------>
+    <script src="/js/user-research.js"></script>
+    <script src="/js/repos.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
